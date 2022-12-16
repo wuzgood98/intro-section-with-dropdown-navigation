@@ -1,4 +1,4 @@
-const dropdownButtons = document.querySelectorAll("#dropdown-btn");
+const dropdownButtons = document.querySelectorAll(".dropdown-btn");
 const mobileNav = document.querySelector(".mobile-nav");
 const hideMenuBtn = document.querySelector(".close-menu-btn");
 const showMenuBtn = document.querySelector(".menu-btn");

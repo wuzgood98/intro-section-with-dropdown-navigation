@@ -134,7 +134,7 @@ header {
   text-transform: capitalize;
 }
 
-#dropdown-btn {
+.dropdown-btn {
   font-size: 1rem;
   font-family: "Epilogue",
     sans-serif;
@@ -323,20 +323,20 @@ span.icon {
     align-items: center;
   }
 
-  #dropdown-btn {
+  .dropdown-btn {
     cursor: pointer;
     transition: all .3s ease-in;
   }
 
-  #dropdown-btn:hover>span>svg>path {
+  .dropdown-btn:hover>span>svg>path {
     stroke: var(--almost-black);
   }
 
-  #dropdown-btn>span>svg>path {
+  .dropdown-btn>span>svg>path {
     transition: stroke .3s ease-in;
   }
 
-  :is(#dropdown-btn, .sublink > a, .navlink a):hover {
+  :is(.dropdown-btn, .sublink > a, .navlink a):hover {
     color: var(--almost-black);
   }
 
